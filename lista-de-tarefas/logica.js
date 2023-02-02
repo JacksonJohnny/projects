@@ -54,14 +54,7 @@ function addTaskToList(task) {
     taskList.appendChild(newTask);
 
     const deleteButton = document.createElement("button");
-    deleteButton.classList.add("delete-button");
-
-    // Cria um novo elemento <i> para adicionar um ícone de "X"
-    const icon = document.createElement("i");
-    // Adiciona classes do Font Awesome para definir o ícone de "X"
-    icon.classList.add("fas", "fa-times");
-    // Adiciona o elemento <i> com o ícone de "X" dentro do elemento <button>
-    deleteButton.appendChild(icon);
+    deleteButton.classList.add("delete-button", "btn-close");
 
     // Adiciona o elemento <button> ao elemento <li>
     newTask.appendChild(deleteButton);
