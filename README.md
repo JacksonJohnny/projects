@@ -1,2 +1,2 @@
-# simple-projects
-simple projects for learning
+# projects
+projects for learning
